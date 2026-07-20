@@ -29,7 +29,7 @@ export const submitLead = createServerFn({ method: "POST" })
         budget: data.budget ?? null,
         timeline: data.timeline ?? null,
         locale: data.locale ?? null,
-        source: data.source ?? "landing-form",
+        source: data.source ?? "hire.devroman.dev landing-form",
       });
       if (error) {
         console.error("[submitLead] insert failed:", error);
